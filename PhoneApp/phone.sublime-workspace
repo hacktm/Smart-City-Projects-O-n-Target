@@ -1,0 +1,279 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fu",
+				"function"
+			],
+			[
+				"$ioni",
+				"$ionicSlideBoxDelegate"
+			],
+			[
+				"$inter",
+				"$interval	AngularJS(DI)"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"paddo",
+				"padding-top"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"he",
+				"max-height"
+			],
+			[
+				"start",
+				"startApp"
+			],
+			[
+				"$com",
+				"$compileProvider	AngularJS"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 285.0,
+		"selected_items":
+		[
+			[
+				"inden",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"termina",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"terminal",
+				"Preferences: Terminal Key Bindings – User"
+			],
+			[
+				"InstallPa",
+				"Package Control: Install Package"
+			],
+			[
+				"InstaLL",
+				"Package Control: Install Package"
+			],
+			[
+				"index",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"INstall",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/PhoneApp"
+	],
+	"file_history":
+	[
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/PhoneApp/www/index.html",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/angular/REST/www/index.html",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/angular/RESTUI/www/index.html",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/angular/RESTUI/www/views/activities.html",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/angular/RESTUI/www/js/app.js",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/angular/RESTUI/www/js/controllers.js",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/angular/UI/www/css/style.css",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/angular/UI/www/js/app.js",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/angular/UI/www/intro.html",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/angular/UI/www/main.html",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/www/js/app.js",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/www/js/services.js",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/www/index.html",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/www/create-activity.html",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/www/edit-activity.html",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/www/activities.html",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/www/js/controllers.js",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/ionic.project",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/package.json",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/www/js/create-activity.html",
+		"/home/alex/Documents/BusyMachine/hakathon/enjoyCity/EnjoyCity/www/js/edit-activity.html",
+		"/home/alex/Documents/BusyMachine/git/todo/www/index.html",
+		"/home/alex/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/alex/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/home/alex/Documents/BusyMachine/git/todo/www/js/app.js",
+		"/home/alex/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/home/alex/Documents/BusyMachine/git/todo/platforms/android/cordova/lib/install-device",
+		"/home/alex/Documents/BusyMachine/git/todo/ionic.project",
+		"/home/alex/Documents/BusyMachine/git/taxibutler/hack.sublime-project"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"DIV",
+			"470px",
+			"800px",
+			"images",
+			"Slide 2 Content",
+			"Todo",
+			"todo",
+			"todos",
+			"Todo",
+			"Ionic",
+			"Ionic Bla",
+			"box",
+			"starter",
+			"box"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "phone.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
