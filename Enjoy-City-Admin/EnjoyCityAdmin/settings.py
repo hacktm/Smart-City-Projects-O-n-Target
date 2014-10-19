@@ -170,8 +170,8 @@ ACCOUNT_EMAIL_UNIQUE = False
 EMAIL_USE_TLS  = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'egioc.upt@gmail.com'
-EMAIL_HOST_PASSWORD = 'egiocevaluator'
+EMAIL_HOST_USER = 'email'
+EMAIL_HOST_PASSWORD = 'pass'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 DEFAULT_FROM_EMAIL  = 'danci.emanuel@gmail.com'
 
