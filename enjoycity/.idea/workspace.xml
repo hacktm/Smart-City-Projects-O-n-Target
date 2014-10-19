@@ -54,8 +54,8 @@
           <file leaf-file-name="CleanupActor.scala" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/com/enjoycity/util/CleanupActor.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.906087" vertical-offset="73" max-vertical-offset="792">
-                  <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+                <state vertical-scroll-proportion="0.5947826" vertical-offset="0" max-vertical-offset="792">
+                  <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
                   <folding>
                     <element signature="e#28#51#0" expanded="true" />
                   </folding>
@@ -1483,9 +1483,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="2178">
           <caret line="50" column="85" selection-start-line="50" selection-start-column="85" selection-end-line="50" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1536,7 +1534,7 @@
         <state vertical-scroll-proportion="0.42857143" vertical-offset="0" max-vertical-offset="588">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
-            <element signature="e#28#67#0" expanded="true" />
+            <element signature="e#28#67#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1669,8 +1667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/enjoycity/util/CleanupActor.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.906087" vertical-offset="73" max-vertical-offset="792">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.5947826" vertical-offset="0" max-vertical-offset="792">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
             <element signature="e#28#51#0" expanded="true" />
           </folding>
