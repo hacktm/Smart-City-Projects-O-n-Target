@@ -1,0 +1,26 @@
+<ion-content has-header="true">
+
+    <ion-slide-box show-pager="false"> <!--on-slide-changed="LoadActivities($index)"-->
+          <ion-slide ng-repeat="category in categories">
+              <div>
+                
+	               <!--  <div class="categoryDisplay" style="background-image: url(./img/category/{{category.name}}.jpg);">
+		                 <img ng-src="./img/category/{{category.name}}.png" class="logoDisplay"/>
+	                </div> -->
+	                
+	                <ul>
+						  <li class="activityList">	<p>Test content 1</p>	</li>
+						  <li class="activityList">	<p>Test content 1</p>	</li>
+						  <li class="activityList">	<p>Test content 1</p>	</li>
+						  <li class="activityList">	<p>Test content 1</p>	</li>
+						  <li class="activityList">	<p>Test content 1</p>	</li>
+						  <li class="activityList">	<p>Test content 1</p>	</li>
+						  <li class="activityList">	<p>Test content 1</p>	</li>
+						  <li class="activityList">	<p>Test content 1</p>	</li>
+						  <li class="activityList">	<p>Test content 1</p>	</li>
+	                </ul>
+
+                </div>
+          </ion-slide>
+    </ion-slide-box>
+</ion-content>

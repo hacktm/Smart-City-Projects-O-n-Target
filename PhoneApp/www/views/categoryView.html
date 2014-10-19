@@ -1,0 +1,39 @@
+<!-- 
+<ion-view>
+        <ion-slide-box show-pager="false">
+        
+         <ion-slide ng-repeat="category in categories" style="width:100%;">
+        	<div>
+	            <h3>{{category.name}}</h3>
+	         </div>
+          </ion-slide>
+
+          <ion-slide ng-repeat="category in categories" style="width:100%;">
+	          <div class="categoryDisplay" style="background-image: url(./img/category/{{category.name}}.jpg);width:100%;height:100%;">
+          </ion-slide>
+        </ion-slide-box>
+      </ion-view> -->
+
+      <!-- ion-view hide-nav-bar=true >
+    
+ <ion-content has-header=false>
+      <<ion-list>
+        <ion-item ng-repeat="category in categories">
+        <div>
+          <h2>{{category.name}}</h2>
+           <div style="width:100px;height:100px;background-image: url(./img/category/{{category.name}}.jpg);"></div>
+		     </div>           
+        </ion-item>
+      </ion-list>
+</ion-content>
+
+</ion-view> -->
+
+
+<ion-slide-box show-pager="false" on-slide-changed="onSlideChanged(index)">
+      <ion-slide ng-repeat="category in categories">
+          <div class="categoryDisplay" style="background-image: url(./img/category/{{category.name}}.jpg);width:100%;height:100%;background-size:100%;">
+           <img ng-src="img/category/{{category.name}}.png" class="logoDisplay"/>
+          </div>
+      </ion-slide>
+</ion-slide-box>
