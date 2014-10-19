@@ -5,4 +5,4 @@ import com.mongodb.casbah.MongoClient
 import com.novus.salat.global._
 import com.novus.salat.dao._
 
-object CategoryDAO extends SalatDAO[Category, Long](collection = MongoClient()("enjoycity")("category"))
+object CategoryDAO extends SalatDAO[Category, Long](collection = MongoClient(DAOAssembly.mongoHost, DAOAssembly.mongoPort)("enjoycity")("category"))

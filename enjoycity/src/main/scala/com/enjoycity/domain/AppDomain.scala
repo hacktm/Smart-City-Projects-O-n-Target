@@ -1,6 +1,7 @@
 package com.enjoycity.domain
 
 import com.novus.salat.annotations._
+import org.joda.time.DateTime
 
 case class Coordinates(
   lat: Double,
@@ -28,19 +29,21 @@ case class Location(
   @Key("_id") id: Long,
   name: String,
   description: String,
-  category: Long,
+  categoryId: Long,
   tags: List[Long],
   coordinates: Coordinates,
   email: String,
   phoneNumber: String,
-  rating: Option[Int] = None,
-  photo: Array[Byte]
+  rating: Option[Double] = None,
+  photo: Option[Array[Byte]] = None
 )
 
 case class Content(
   @Key("_id") id: Long,
   idLocation: Long,
   description: String,
+  coordinates: Option[Coordinates],
   tags: List[Long],
+  expirationDate: Option[DateTime],
   photo: Option[Array[Byte]] = None
 )

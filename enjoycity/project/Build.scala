@@ -47,6 +47,9 @@ object enjoyCityBuild extends Build {
     libraryDependencies += "joda-time" % "joda-time" % "2.3" withSources(),
     libraryDependencies += "org.joda" % "joda-convert" % "1.6" withSources(), // for class file error in joda-time
     libraryDependencies += "com.google.guava" % "guava" % "17.0" withSources(),
+    libraryDependencies += "com.typesafe" % "config" % "1.2.1" withSources(),
+    libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.1.0",
+
     libraryDependencies <++= scalaBinaryVersion {
       case "2.11" => Seq(
         "io.spray" %% "spray-json" % "1.2.6" withSources(),

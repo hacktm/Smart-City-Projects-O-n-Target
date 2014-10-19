@@ -87,7 +87,6 @@
     <orderEntry type="library" name="SBT: org.parboiled:parboiled-scala_2.11:1.1.6" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-compiler:2.11.0" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.2" level="project" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.11.0" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang:scala-reflect:2.11.2" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang:scalap:2.11.0" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.1" level="project" />
@@ -97,6 +96,8 @@
     <orderEntry type="library" scope="TEST" name="SBT: org.scalatest:scalatest_2.11:2.2.1" level="project" />
     <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.7" level="project" />
     <orderEntry type="library" name="SBT: org.uncommons.maths:uncommons-maths:1.2.2a" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.scala-logging:scala-logging_2.11:3.1.0" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.11.1" level="project" />
   </component>
 </module>
 
