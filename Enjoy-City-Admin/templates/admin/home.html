@@ -1,0 +1,38 @@
+{% extends "site_base.html" %}
+
+{% block body %} 
+
+
+<div class="row">
+    <form action="{% url 'add-location' %}">
+        <input type="submit" class="btn btn-primary pull-right" value="Add New Location"/>
+    </form>
+</div>
+<br>
+<div class="row">
+    <table class="table table-hover">
+    <tr>
+        <th> Location Name </th>
+        <th> Short Description</th>
+    </tr>
+    {% for location in locations %} 
+        <tr id="{{location.id}}" class="location">
+            <td>{{ location.name }} </td>
+            <td>{{ location.description }} </td>
+        </tr>
+    {% endfor %}
+    </table>
+</div>
+
+{% endblock %}
+
+{% block script_base %}
+    {{ block.super }}
+
+    <script type="text/javascript">
+            $("tr.location").click(function () {
+                    var locationUrl = "{% url 'location' 1 %}".replace(1, this.id);
+                    window.location = locationUrl;
+            });
+    </script>
+{% endblock %}
